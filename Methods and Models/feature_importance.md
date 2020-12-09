@@ -23,7 +23,7 @@ eli5.show_weights(perm, top = 80, feature_names= X_val.columns.tolist())
 
 #### importance 계산방법
 
-![image-20201027105911343](/Users/이루다/Library/Application Support/typora-user-images/image-20201027105911343.png)
+![image-20201027105911343](/Users/이루다/Library/Application Support/typora-user-images/image-20201027105911343.png)
 
 - feature마다 shuffle 하고 모델학습하는 것을 K 번 진행.
 - 원래의 스코어 - Corrupted data로 학습했을 때 스코어의 평균  = importance
